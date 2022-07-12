@@ -1,0 +1,15 @@
+<% provide(:title, 'Help' ) %>
+    <h1>
+        <%= t('help') %>
+    </h1>
+    <p>
+        <%= t('get_help_on_the_ruby_on_rails_tutorial_at_the') %>
+        <a href=<%= Settings.help.help_rails_tutorial %>>
+            <%= t('rails_tutorial_help_page') %>
+        </a>.
+            <%= t('to_get_help_on_this_sample_app_see_the') %>
+        <a href=<%= Settings.help.book_rails_tutorial%>>
+            <em><%= t('ruby_on_rails_tutorial') %></em>
+            <%= t('book') %>
+        </a>.
+    </p>

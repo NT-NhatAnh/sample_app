@@ -1,0 +1,23 @@
+<footer class='footer'>
+    <small>
+        The <a href=<%=Settings.rails_tutorial%>>
+        <%= t('ruby_on_rails_tutorial') %>
+        </a>by <a href=<%=Settings.rails_tutorial%>>
+            <%= t('michael_hartl') %>
+        </a>
+    </small>
+    <nav>
+        <ul>
+            <li>
+                <%= link_to t('about'),about_path %>
+            </li>
+            <li>
+                <%= link_to t('contact'), contact_path %>
+            </li>
+            <li> <a href=<%= Settings.new_rails_tutorial%>>
+                <%= t('news') %>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</footer>

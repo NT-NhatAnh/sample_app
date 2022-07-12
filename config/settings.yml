@@ -1,0 +1,11 @@
+rails_tutorial: 'https://www.railstutorial.org/'
+new_rails_tutorial: 'https://news.railstutorial.org/'
+
+help:
+  help_rails_tutorial: 'https://www.railstutorial.org/help'
+  book_rails_tutorial: 'https://www.railstutorial.org/book'
+
+screencast: 'https://screencasts.railstutorial.org/'
+contact: 'https://www.railstutorial.org/contact'
+learnenough: 'https://www.learnenough.com/'
+screencast: 'https://screencasts.railstutorial.org/'

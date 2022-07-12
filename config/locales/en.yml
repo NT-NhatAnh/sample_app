@@ -1,33 +1,33 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  ruby_on_rails_tutorial:	"ruby on rails tutorial"
+  michael_hartl:	"michael hartl"
+  about:	"about"
+  contact:	"contact"
+  news:	"news"
+  sample_app:	"sample app"
+  home:	"home"
+  help:	"help"
+  log_in:	"log in"
+  english:	"english"
+  vietnamese:	"vietnamese"
+  the:	"the"
+  tutorial:	"tutorial"
+  learn_enough:	"learn enough"
+  tutorials_is_a:	"tutorials is a"
+  book:	"book"
+  screencast_series:	"screencast series"
+  to_teach_web_development_with:	"to teach web development with"
+  ruby_on_rails>:	"ruby on rails>"
+  this_is_the_sample_app_for_the_tutorial:	"this is the sample app for the tutorial"
+  contact_the_ruby_on_rails_tutorial_about_the_sample_app_at_the:	"contact the ruby on rails tutorial about the sample app at the"
+  contact_page:	"contact page"
+  get_help_on_the_ruby_on_rails_tutorial_at_the:	"get help on the ruby on rails tutorial at the"
+  rails_tutorial_help_page:	"rails tutorial help page"
+  to_get_help_on_this_sample_app_see_the:	"to get help on this sample app see the"
+  this_is_the_home_page_for_the:	"this is the home page for the"
+  sample_application:	"sample application"
+  welcome_to_the_sample_app:	"welcome to the sample app"
+  sign_up_now:	"sign up now"
+  sign_up:	"sign up"
+  this_will_be_a_signup_page_for_new_users:	"this will be a signup page for new users"
+  Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample App"

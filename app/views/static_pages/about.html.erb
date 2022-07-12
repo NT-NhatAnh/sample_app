@@ -1,0 +1,25 @@
+<% provide(:title, 'About' ) %>
+<h1>
+    <%= t('about') %>
+</h1>
+<p>
+    <%= t('the') %><a href=<%=Settings.rails_tutorial%>>
+    <em>Ruby on Rails
+        <%= t('tutorial') %>
+    </em></a>, part of the
+    <a href=<%= Settings.learnenough %>>
+        <%= t('learn_enough') %>
+    </a> family of
+    <%= t('tutorials_is_a') %>
+    <a href=<%= Settings.help.book %>>
+        <%= t('book') %>
+    </a> and
+    <a href=<%= Settings.screencast %>>
+        <%= t('screencast_series') %>
+    </a>
+    <%= t('to_teach_web_development_with') %>
+        <a href=<%= Settings.rails_tutorial %>>
+            <%= t('ruby_on_rails') %>
+        </a>.
+    <%= t('this_is_the_sample_app_for_the_tutorial') %>
+</p>
