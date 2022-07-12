@@ -112,6 +112,17 @@ vi:
       confirm_password: " Xác nhận mật khẩu"
     user:
       you_sure: "bạn chắc chắn chứ?"
+    following:
+      following: "Tiếp theo"
+    followers:
+      followers: " Người theo dõi"
+    follow:
+      follow: " Theo dõi"
+    unfollow:
+      unfollow: " Bỏ theo dõi"
+    show_follow:
+      view_my: " xem hồ sơ của tôi"
+      micropost: " Micropost:"
   user_mailer:
     account_activation:
       account_activated: "tài khoản đã được kích hoạt"
@@ -139,6 +150,12 @@ vi:
   mật khẩu của bạn sẽ vẫn như cũ."
       click_reset_link: "để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới"
       link_expired: " liên kết này sẽ hết hạn sau hai giờ"
+  stats:
+    following: "tiếp theo"
+    followers: " người theo dõi"
+  relationships:
+    follow_fail: Theo dõi thất bại
+    unfollow_fail: " Bỏ theo dõi không thành công"
   microposts:
     microposts:
       posted: "đã đăng"

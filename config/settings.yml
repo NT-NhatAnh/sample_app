@@ -16,6 +16,7 @@ user:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   pass_min: 6
   gravatar_size: 50
+  gravatar_size_mini: 30
 
 admin:
   user_per_page: 30

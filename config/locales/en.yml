@@ -111,6 +111,17 @@ en:
       confirm_password: "confirm password"
     user:
       you_sure: "you sure?"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my: "view my profile"
+      micropost: "Micropost:"
   user_mailer:
     account_activation:
       account_activated: "account activated"
@@ -138,6 +149,12 @@ en:
   your password will stay as it is."
       click_reset_link: "to reset your password click the link below"
       link_expired: "this link will expire in two hours"
+    stats:
+      following: "following"
+      followers: "followers"
+  relationships:
+    follow_fail: "Follow fail"
+    unfollow_fail: "Unfollow fail"
   microposts:
     microposts:
       posted: "posted"

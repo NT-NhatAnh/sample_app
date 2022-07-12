@@ -8,9 +8,14 @@ Rails.application.routes.draw do
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
-    resources :users
+    resources :users do
+      member do
+        get :following, to: "follows#following"
+        get :followers, to: "follows#followers"
+      end
+    end
     resources :password_resets, except: %i(show index destroy)
-    resources :microposts, only: %i(create destroy)
+    resources :microposts, :relationships, only: %i(create destroy)
     resources :account_activations, only: :edit
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
