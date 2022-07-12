@@ -13,5 +13,5 @@ screencast: "https://screencasts.railstutorial.org/"
 user:
   name_max: 50
   email_max: 255
-  email_regex: '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   pass_min: 6
