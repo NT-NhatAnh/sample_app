@@ -1,6 +1,15 @@
 class UsersController < ApplicationController
+  before_action :logged_in_user, except: %i(show new create)
+  before_action :find_user, except: %i(index new create)
+  before_action :correct_user, only: %i(edit update)
+  before_action :admin_user, only: :destroy
+
+  def index
+    @pagy, @users = pagy User.incre_order,
+                         items: Settings.admin.user_per_page
+  end
+
   def show
-    @user = User.find params[:id]
     return if @user
 
     flash[:danger] = t ".user_not_found"
@@ -21,6 +30,27 @@ class UsersController < ApplicationController
       flash.now[:danger] = t ".user_not_saved"
       render :new
     end
+  end
+
+  def edit; end
+
+  def update
+    if @user.update user_params
+      flash[:success] = t ".profile_updated"
+      redirect_to @user
+    else
+      flash[:danger] = t ".updating_failed"
+      render :edit
+    end
+  end
+
+  def destroy
+    if @user.destroy
+      flash[:danger] = t ".deleting_user_failed"
+    else
+      flash[:success] = t ".user_deleted"
+    end
+    redirect_to users_url
   end
 
   private
