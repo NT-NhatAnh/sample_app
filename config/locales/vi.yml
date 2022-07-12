@@ -73,6 +73,12 @@ vi:
       check_your_email: "tài khoản chưa được kích hoạt, hãy kiểm tra email của bạn để biết liên kết kích hoạt"
       invalid: "kết hợp email / mật khẩu không hợp lệ"
       check_your_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
+      micropost_created: "micropost đã tạo"
+      creating_microposts_failed: " tạo micropost không thành công"
+      micropost_deleted: " micropost đã bị xóa"
+      micropost_delete_failed: " không xóa được micropost"
+      micropost_invalid: " vi đăng không hợp lệ"
+      micropost_feed: " nguồn cấp dữ liệu micropost"
   users:
     new:
       create_my_account: " tạo tài khoản của tôi"
@@ -96,6 +102,8 @@ vi:
       user_deleted: "người dùng đã bị xóa"
     new:
       sign_up: " đăng ký"
+    show:
+      microposts: "microposts"
     form:
       change: " biến đổi"
       name: Tên
@@ -131,3 +139,18 @@ vi:
   mật khẩu của bạn sẽ vẫn như cũ."
       click_reset_link: "để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới"
       link_expired: " liên kết này sẽ hết hạn sau hai giờ"
+  microposts:
+    microposts:
+      posted: "đã đăng"
+      ago: " trước kia"
+      delete: " xóa bỏ"
+      you_sure: " bạn chắc chắn"
+
+  activerecord:
+    errors:
+      models:
+        microposts:
+          attributes:
+            image:
+              mess: "phải là một định dạng hình ảnh hợp lệ"
+              size_img: " phải nhỏ hơn 5MB"

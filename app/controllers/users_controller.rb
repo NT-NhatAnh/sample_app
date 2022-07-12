@@ -10,10 +10,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-
-    flash[:danger] = t ".user_not_found"
-    redirect_to root_path
+    @pagy, @microposts = pagy @user.microposts.recent_post,
+                              items: Settings.admin.micropost_per_page
   end
 
   def new
