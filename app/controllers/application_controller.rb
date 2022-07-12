@@ -17,15 +17,15 @@ class ApplicationController < ActionController::Base
 
     store_location
     flash[:danger] = t ".please_log_in"
-    redirect_to login_url
+    redirect_to login_path
   end
 
   def correct_user
-    redirect_to root_url unless current_user? @user
+    redirect_to root_path unless current_user? @user
   end
 
   def admin_user
-    redirect_to root_url unless current_user.admin?
+    redirect_to root_path unless current_user.admin?
   end
 
   def find_user

@@ -69,6 +69,10 @@ en:
       sign_up: "sign up"
       sample_app: "sample app"
       ruby_on_rails_tutorial: "ruby on rails tutorial"
+      alert_user: "alert user"
+      check_your_email: "account not activated check your email for the activation link"
+      invalid: "invalid email/password combination"
+      please_check_your_email_to_activate_your_account: "please check your email to activate your account"
   users:
     new:
       create_my_account: "create my account"
@@ -99,3 +103,12 @@ en:
       confirm_password: "confirm password"
     user:
       you_sure: "you sure?"
+  user_mailer:
+    account_activation:
+      account_activated: "account activated"
+      invalid_activation_link: "invalid activation link"
+      account_activation: "account activation"
+      sample_app: "sample app"
+      hi: "hi"
+      welcome: "welcome to the Sample App! Click on the link below to activate your account"
+      activate: "activate"

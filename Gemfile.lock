@@ -140,6 +140,8 @@ GEM
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.5)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     html_tokenizer (0.0.7)
@@ -307,6 +309,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   config
   erb_lint
+  figaro
   i15r (~> 0.5.1)
   i18n
   jbuilder (~> 2.7)
