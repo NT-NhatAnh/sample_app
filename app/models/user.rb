@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  UPDATABLE_ATTRS = %i(name email password password_confirmation).freeze
   before_save :downcase_email
 
   validates :name, presence: true, length: {maximum: Settings.user.name_max}
