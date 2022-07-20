@@ -7,19 +7,30 @@ vi:
       contact: " tiếp xúc"
       news: " Tin tức"
       the: " các"
-      by: qua
+      by: "qua"
     header:
       sample_app: " ứng dụng mẫu"
       home: " Trang Chủ"
       help: " Cứu giúp"
       log_in: " đăng nhập"
+      users: "người dùng"
+      account: " tài khoản"
+      profile: " Hồ sơ"
+      settings: " cài đặt"
+      log_out: " đăng xuất"
+      log_in: " đăng nhập"
     application:
       english: " Anh"
       vietnamese: " Tiếng Việt"
       ruby_on_rails_tutorial_sample_app: " ứng dụng mẫu hướng dẫn ruby on rails"
+  sessions:
+    new:
+      login: đăng nhập
+      new_user?: ' người dùng mới?'
+      sign_up_now: ' đăng ký ngay!'
   shared:
     error_messages:
-      error: lỗi
+      error: "lỗi"
       the_form_contains: " biểu mẫu chứa"
   static_pages:
     about:

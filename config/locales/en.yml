@@ -13,10 +13,21 @@ en:
       home: "home"
       help: "help"
       log_in: "log in"
+      users: "users"
+      account: "account"
+      profile: "profile"
+      settings: "settings"
+      log_out: "log out"
+      log_in: "log in"
     application:
       english: "english"
       vietnamese: "vietnamese"
       ruby_on_rails_tutorial_sample_app: "ruby on rails tutorial sample app"
+  sessions:
+    new:
+      login: "login"
+      new_user?: "new user?"
+      sign_up_now: "sign up now!"
   shared:
     error_messages:
       error: "error"
@@ -59,3 +70,4 @@ en:
       user_not_found: "user not found"
       welcome_to_the_sampleapp!: "welcome to the sampleapp!"
       user_not_saved: "user not saved"
+      sign_up: "sign up"
