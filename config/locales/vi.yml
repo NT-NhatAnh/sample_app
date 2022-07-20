@@ -25,9 +25,9 @@ vi:
       ruby_on_rails_tutorial_sample_app: " ứng dụng mẫu hướng dẫn ruby on rails"
   sessions:
     new:
-      login: đăng nhập
-      new_user?: ' người dùng mới?'
-      sign_up_now: ' đăng ký ngay!'
+      login: "đăng nhập"
+      new_user?: " người dùng mới?"
+      sign_up_now!: " đăng ký ngay!"
   shared:
     error_messages:
       error: "lỗi"
@@ -51,6 +51,8 @@ vi:
       contact_the_ruby_on_rails_tutorial_about_the_sample_app_at_the: " liên hệ với hướng dẫn về ruby on rails về ứng dụng mẫu tại"
       contact: " tiếp xúc"
     help:
+      help: "help"
+      ruby_on_rail_tutorial: "ruby on rail tutorial"
       book: " sách"
       ruby_on_rails: " Viên ngọc trên tay vịn"
       rails_tutorial_help_page: " trang trợ giúp hướng dẫn rails"
