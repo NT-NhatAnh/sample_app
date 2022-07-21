@@ -26,7 +26,7 @@ en:
   sessions:
     new:
       login: "login"
-      new_user?: "new user?"
+      new_user: "new user?"
       sign_up_now: "sign up now!"
   shared:
     error_messages:
@@ -51,6 +51,8 @@ en:
       contact_the_ruby_on_rails_tutorial_about_the_sample_app_at_the: "contact the ruby on rails tutorial about the sample app at the"
       contact: "contact"
     help:
+      help: "help"
+      ruby_on_rail_tutorial: "ruby on rail tutorial"
       book: "book"
       ruby_on_rails: "ruby on rails"
       rails_tutorial_help_page: "rails tutorial help page"
