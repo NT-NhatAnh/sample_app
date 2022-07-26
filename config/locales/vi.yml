@@ -28,6 +28,9 @@ vi:
       login: đăng nhập
       new_user: " người dùng mới?"
       sign_up_now: " đăng ký ngay!"
+      remember_me_on_this_computer: "nhớ tôi trên thiết bị này"
+      email: " e-mail"
+      password: " mật khẩu mở khóa"
   shared:
     error_messages:
       error: "lỗi"
@@ -73,3 +76,27 @@ vi:
       welcome_to_the_sampleapp!: " chào mừng bạn đến với ứng dụng mẫu!"
       user_not_saved: " người dùng không được lưu"
       sign_up: " đăng ký"
+    edit:
+      profile_updated: "Hồ sơ cá nhân đã cập nhật"
+      updating_failed: "cập nhật không thành công"
+      user_deleted: " người dùng đã bị xóa"
+      please_log_in: " vui lòng hãy đăng nhập"
+      error: "lỗi"
+      edit_user: " Người dùng biên tập"
+      save_changes: " lưu thay đổi"
+      update_your_profile: " cập nhật hồ sơ của bạn"
+      change: " biến đổi"
+    index:
+      all_users: " tất cả người sử dụng"
+      deleting_user_failed: "xóa người dùng không thành công"
+      user_deleted: "người dùng đã bị xóa"
+    new:
+      sign_up: " đăng ký"
+    form:
+      change: " biến đổi"
+      name: Tên
+      email: " e-mail"
+      password: " mật khẩu mở khóa"
+      confirm_password: " Xác nhận mật khẩu"
+    user:
+      you_sure: "bạn chắc chắn chứ?"

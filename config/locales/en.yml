@@ -28,6 +28,9 @@ en:
       login: "login"
       new_user: "new user?"
       sign_up_now: "sign up now!"
+      remember_me_on_this_computer: "remember me on this computer"
+      email: "email"
+      password: "password"
   shared:
     error_messages:
       error: "error"
@@ -73,3 +76,26 @@ en:
       welcome_to_the_sampleapp!: "welcome to the sampleapp!"
       user_not_saved: "user not saved"
       sign_up: "sign up"
+    edit:
+      profile_updated: "profile updated"
+      updating_failed: "updating failed"
+      user_deleted: "user deleted"
+      please_log_in: "please log in"
+      error: "error"
+      edit_user: "edit user"
+      save_changes: "save changes"
+      update_your_profile: "update your profile"
+    index:
+      all_users: "all users"
+      deleting_user_failed: "deleting user failed"
+      user_deleted: "user deleted"
+    new:
+      sign_up: "sign up"
+    form:
+      change: "change"
+      name: "name"
+      email: "email"
+      password: "password"
+      confirm_password: "confirm password"
+    user:
+      you_sure: "you sure?"

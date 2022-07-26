@@ -15,3 +15,9 @@ user:
   email_max: 255
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   pass_min: 6
+  gravatar_size: 50
+
+admin:
+  user_per_page: 30
+
+gravatar: "https://gravatar.com/emails"
