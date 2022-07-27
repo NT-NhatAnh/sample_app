@@ -34,7 +34,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def find_user
-    @user = User.find_by(email: params[:password_reset][:email]&.downcase ||
+    @user = User.find_by(email: params.dig(:password_reset, :email)&.downcase ||
                                 params[:email]&.downcase)
     return if @user
 
@@ -53,6 +53,6 @@ class PasswordResetsController < ApplicationController
     return unless @user.password_reset_expired?
 
     flash[:danger] = t ".password_reset_expired."
-    redirect_to new_password_reset_url
+    redirect_to new_password_reset_path
   end
 end

@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
 
   UPDATABLE_ATTRS = %i(name email password password_confirmation).freeze
@@ -17,14 +18,14 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update_attribute(:remember_digest, User.digest(remember_token))
+    update_attribute :remember_digest, User.digest(remember_token)
   end
 
   def authenticated? attribute, token
     digest = send("#{attribute}_digest")
     return false if digest.blank?
 
-    BCrypt::Password.new(digest).is_password?(token)
+    BCrypt::Password.new(digest).is_password? token
   end
 
   def forget

@@ -3,6 +3,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 gem "erb_lint", require: false
 ruby "3.0.2"
+gem "active_storage_validations", "0.8.2"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
@@ -10,7 +11,9 @@ gem "config"
 gem "figaro"
 gem "i15r", "~> 0.5.1"
 gem "i18n"
+gem "image_processing", "1.12.2"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick"
 gem "missing_t", "~> 0.3.1"
 gem "mysql2", "~> 0.5.4"
 gem "pagy"

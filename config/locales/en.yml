@@ -73,6 +73,12 @@ en:
       check_your_email: "account not activated check your email for the activation link"
       invalid: "invalid email/password combination"
       check_your_email: "please check your email to activate your account"
+      micropost_created: "micropost created"
+      creating_microposts_failed: "creating microposts failed"
+      micropost_deleted: "micropost deleted"
+      micropost_delete_failed: "micropost delete failed"
+      micropost_invalid: "micropost invalid"
+      micropost_feed: "micropost feed"
   users:
     new:
       create_my_account: "create my account"
@@ -95,6 +101,8 @@ en:
       user_deleted: "user deleted"
     new:
       sign_up: "sign up"
+    show:
+      microposts: "microposts"
     form:
       change: "change"
       name: "name"
@@ -130,3 +138,18 @@ en:
   your password will stay as it is."
       click_reset_link: "to reset your password click the link below"
       link_expired: "this link will expire in two hours"
+  microposts:
+    microposts:
+      posted: "posted"
+      ago: "ago"
+      delete: "delete"
+      you_sure: "you sure"
+
+  activerecord:
+    errors:
+      models:
+        microposts:
+          attributes:
+            image:
+              mess: "must be a valid image format"
+              size_img: "should be less than 5MB"
