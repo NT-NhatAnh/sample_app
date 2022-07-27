@@ -69,6 +69,10 @@ vi:
       sign_up: " đăng ký"
       sample_app: " ứng dụng mẫu"
       ruby_on_rails_tutorial: " hướng dẫn về ruby on rails"
+      alert_user: "không tìm thấy user"
+      check_your_email: "tài khoản chưa được kích hoạt, hãy kiểm tra email của bạn để biết liên kết kích hoạt"
+      invalid: "kết hợp email / mật khẩu không hợp lệ"
+      please_check_your_email_to_activate_your_account: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
   users:
     new:
       create_my_account: " tạo tài khoản của tôi"
@@ -100,3 +104,12 @@ vi:
       confirm_password: " Xác nhận mật khẩu"
     user:
       you_sure: "bạn chắc chắn chứ?"
+  user_mailer:
+    account_activation:
+      account_activated: "tài khoản đã được kích hoạt"
+      invalid_activation_link:  " liên kết kích hoạt không hợp lệ "
+      account_activation:  " Kích hoạt tài khoản "
+      sample_app: " ứng dụng mẫu "
+      hi: "Chào"
+      welcome: " chào mừng bạn đến với ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn "
+      activate: " hoạt động "
