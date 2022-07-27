@@ -24,7 +24,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       @user.send_activation_email
-      flash[:info] = t ".please_check_your_email_to_activate_your_account."
+      flash[:info] = t ".check_your_email"
       redirect_to root_url
     else
       flash.now[:danger] = t ".user_not_saved"

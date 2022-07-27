@@ -21,3 +21,6 @@ admin:
   user_per_page: 30
 
 gravatar: "https://gravatar.com/emails"
+
+password:
+  reset_expired: 2
